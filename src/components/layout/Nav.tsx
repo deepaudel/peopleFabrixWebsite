@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const links = [
@@ -10,21 +11,28 @@ const links = [
 
 export function Nav() {
   return (
-    <header className="sticky top-0 z-50 border-b border-black/[.08] bg-[var(--background)]/80 backdrop-blur dark:border-white/[.1]">
+    <header className="sticky top-0 z-50 border-b border-white/10 bg-[#0f172a]">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <Link href="/" className="text-lg font-semibold tracking-tight">
-          People<span className="text-blue-600 dark:text-blue-400">Fabrix</span>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/logo.png"
+            alt="People Fabrix"
+            width={1896}
+            height={335}
+            priority
+            className="h-8 w-auto"
+          />
         </Link>
-        <nav className="hidden gap-8 text-sm font-medium text-zinc-600 dark:text-zinc-400 md:flex">
+        <nav className="hidden gap-8 text-sm font-medium text-slate-300 md:flex">
           {links.map((link) => (
-            <Link key={link.href} href={link.href} className="hover:text-[var(--foreground)]">
+            <Link key={link.href} href={link.href} className="hover:text-white">
               {link.label}
             </Link>
           ))}
         </nav>
         <Link
           href="/contact"
-          className="rounded-full bg-[var(--foreground)] px-4 py-2 text-sm font-medium text-[var(--background)] transition-opacity hover:opacity-90"
+          className="rounded-full bg-white px-4 py-2 text-sm font-medium text-[#0f172a] transition-opacity hover:opacity-90"
         >
           Request a Demo
         </Link>

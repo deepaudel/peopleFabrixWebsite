@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const links = [
@@ -11,21 +12,25 @@ const links = [
 
 export function Footer() {
   return (
-    <footer className="border-t border-black/[.08] py-12 dark:border-white/[.1]">
+    <footer className="border-t border-white/10 bg-[#0f172a] py-12">
       <div className="mx-auto grid max-w-6xl gap-8 px-6 sm:grid-cols-2">
         <div>
-          <p className="text-lg font-semibold tracking-tight">
-            People<span className="text-blue-600 dark:text-blue-400">Fabrix</span>
-          </p>
-          <p className="mt-3 max-w-sm text-sm text-zinc-600 dark:text-zinc-400">
+          <Image
+            src="/logo.png"
+            alt="People Fabrix"
+            width={1896}
+            height={335}
+            className="h-7 w-auto"
+          />
+          <p className="mt-3 max-w-sm text-sm text-slate-400">
             People data and AI working together to create better employee
             experiences and smarter HR processes.
           </p>
         </div>
-        <div className="flex flex-col gap-2 text-sm text-zinc-600 dark:text-zinc-400 sm:items-end">
+        <div className="flex flex-col gap-2 text-sm text-slate-400 sm:items-end">
           <nav className="flex flex-wrap gap-x-6 gap-y-2 sm:justify-end">
             {links.map((link) => (
-              <Link key={link.href} href={link.href} className="hover:text-[var(--foreground)]">
+              <Link key={link.href} href={link.href} className="hover:text-white">
                 {link.label}
               </Link>
             ))}
