@@ -1,0 +1,20 @@
+import type { Metadata } from "next";
+import { ContactHero } from "@/components/contact/ContactHero";
+import { ContactForm } from "@/components/contact/ContactForm";
+
+export const metadata: Metadata = {
+  title: "Contact — People Fabrix",
+  description:
+    "Talk to People Fabrix about your AI employee assistant, HR service delivery, or workforce data strategy.",
+};
+
+export default function Contact() {
+  return (
+    <main className="flex-1 pb-20">
+      <ContactHero />
+      <div className="mx-auto max-w-xl px-6">
+        <ContactForm />
+      </div>
+    </main>
+  );
+}
