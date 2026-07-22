@@ -17,7 +17,7 @@ export function Nav() {
           <Image
             src="/logo.png"
             alt="People Fabrix"
-            width={1896}
+            width={1899}
             height={335}
             priority
             className="h-8 w-auto"

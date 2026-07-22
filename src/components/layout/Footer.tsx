@@ -18,7 +18,7 @@ export function Footer() {
           <Image
             src="/logo.png"
             alt="People Fabrix"
-            width={1896}
+            width={1899}
             height={335}
             className="h-7 w-auto"
           />

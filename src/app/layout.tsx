@@ -18,6 +18,13 @@ export const metadata: Metadata = {
   title: "People Fabrix — People Data. Connected. Intelligent.",
   description:
     "People Fabrix brings your workforce data together and puts AI to work across employee support, HR operations, and people decisions.",
+  icons: {
+    icon: [
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
