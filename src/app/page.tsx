@@ -1,4 +1,5 @@
 import { Hero } from "@/components/home/Hero";
+import { DemoVideo } from "@/components/home/DemoVideo";
 import { ValueProp } from "@/components/home/ValueProp";
 import { WhatWeDo } from "@/components/home/WhatWeDo";
 import { WhyPeopleFabrix } from "@/components/home/WhyPeopleFabrix";
@@ -9,6 +10,7 @@ export default function Home() {
   return (
     <main className="flex-1">
       <Hero />
+      <DemoVideo />
       <ValueProp />
       <WhatWeDo />
       <WhyPeopleFabrix />
