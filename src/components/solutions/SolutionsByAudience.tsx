@@ -12,7 +12,7 @@ const audiences = [
     body: "Reduce repetitive inquiries, streamline service delivery, and give HR professionals more time for high-value work.",
   },
   {
-    title: "For People Leaders",
+    title: "For Leaders",
     body: "Access connected workforce information and insights to support better organizational decisions.",
   },
   {

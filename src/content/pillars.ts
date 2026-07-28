@@ -9,6 +9,8 @@ export const pillars = [
     image: {
       src: "/screenshots/policy-qa.png",
       alt: "People Fabrix answering a public holiday policy question with a citation link to the source policy",
+      width: 505,
+      height: 981,
     },
   },
   {
@@ -21,6 +23,8 @@ export const pillars = [
     image: {
       src: "/screenshots/hris-confirm.png",
       alt: "People Fabrix staging a PTO balance change and waiting for the employee to confirm or cancel it",
+      width: 601,
+      height: 1168,
     },
   },
   {
@@ -33,6 +37,8 @@ export const pillars = [
     image: {
       src: "/screenshots/analytics.png",
       alt: "People Fabrix answering a workforce analytics question about average department tenure",
+      width: 717,
+      height: 1300,
     },
   },
   {

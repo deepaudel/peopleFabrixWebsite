@@ -46,8 +46,8 @@ export function PillarDetail() {
                   <Image
                     src={pillar.image.src}
                     alt={pillar.image.alt}
-                    width={390}
-                    height={844}
+                    width={pillar.image.width}
+                    height={pillar.image.height}
                     className="h-auto w-full"
                   />
                 </div>
