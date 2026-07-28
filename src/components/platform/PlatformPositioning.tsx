@@ -29,7 +29,7 @@ export function PlatformPositioning() {
         <ul className="mx-auto mt-4 grid max-w-2xl gap-x-8 gap-y-2 text-left text-sm text-zinc-600 dark:text-zinc-400 sm:grid-cols-2">
           {integrations.map((item) => (
             <li key={item} className="flex items-start gap-2">
-              <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-600 dark:bg-blue-400" />
+              <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-cyan-700 dark:bg-[#46e5f9]" />
               {item}
             </li>
           ))}

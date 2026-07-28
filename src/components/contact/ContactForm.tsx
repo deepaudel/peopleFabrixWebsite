@@ -92,7 +92,7 @@ function Field({
   return (
     <label className="block text-sm font-medium">
       {label}
-      {required && <span className="text-blue-600 dark:text-blue-400"> *</span>}
+      {required && <span className="text-cyan-700 dark:text-[#46e5f9]"> *</span>}
       {textarea ? (
         <textarea name={name} required={required} rows={4} className={baseClasses} />
       ) : (

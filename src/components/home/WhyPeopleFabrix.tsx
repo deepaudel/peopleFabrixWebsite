@@ -22,7 +22,7 @@ export function WhyPeopleFabrix() {
     <section className="border-y border-black/[.08] bg-zinc-50 py-20 dark:border-white/[.1] dark:bg-white/[.03]">
       <div className="mx-auto max-w-6xl px-6">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-medium uppercase tracking-wide text-blue-600 dark:text-blue-400">
+          <p className="text-sm font-medium uppercase tracking-wide text-cyan-700 dark:text-[#46e5f9]">
             Why People Fabrix
           </p>
           <h2 className="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">

@@ -12,7 +12,7 @@ export default function Contact() {
   return (
     <main className="flex-1 pb-20">
       <ContactHero />
-      <div className="mx-auto max-w-xl px-6">
+      <div className="mx-auto max-w-xl px-6 pt-12">
         <ContactForm />
       </div>
     </main>
