@@ -39,17 +39,18 @@ export function PillarDetail() {
             {pillar.image && (
               <div
                 className={
-                  "overflow-hidden rounded-2xl border border-black/[.08] shadow-xl shadow-black/10 dark:border-white/[.145] dark:shadow-black/50" +
-                  (i % 2 === 1 ? " md:order-1" : "")
+                  "flex justify-center" + (i % 2 === 1 ? " md:order-1" : "")
                 }
               >
-                <Image
-                  src={pillar.image.src}
-                  alt={pillar.image.alt}
-                  width={1280}
-                  height={720}
-                  className="h-auto w-full"
-                />
+                <div className="w-full max-w-[280px] overflow-hidden rounded-2xl border border-black/[.08] shadow-xl shadow-black/10 dark:border-white/[.145] dark:shadow-black/50">
+                  <Image
+                    src={pillar.image.src}
+                    alt={pillar.image.alt}
+                    width={390}
+                    height={844}
+                    className="h-auto w-full"
+                  />
+                </div>
               </div>
             )}
           </div>

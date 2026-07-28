@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 const defaultOgImage = {
-  url: "/screenshots/policy-qa.png",
+  url: "/screenshots/og-image.png",
   width: 1280,
   height: 720,
   alt: "People Fabrix answering an HR policy question with a citation to the company handbook",

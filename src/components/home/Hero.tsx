@@ -3,8 +3,11 @@ import Link from "next/link";
 export function Hero() {
   return (
     <section className="mx-auto max-w-6xl px-6 pt-20 pb-16 text-center sm:pt-28">
-      <h1 className="mx-auto max-w-3xl text-4xl font-semibold tracking-tight sm:text-5xl">
+      <p className="text-sm font-medium uppercase tracking-wide text-blue-600 dark:text-blue-400">
         People Data. Connected. Intelligent.
+      </p>
+      <h1 className="mx-auto mt-2 max-w-3xl text-4xl font-semibold tracking-tight sm:text-5xl">
+        One Platform for People Data and AI-Powered HR
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
         A conversational assistant that answers HR policy questions from your

@@ -1,7 +1,7 @@
 import { Hero } from "@/components/home/Hero";
 import { DemoVideo } from "@/components/home/DemoVideo";
-import { ValueProp } from "@/components/home/ValueProp";
-import { WhatWeDo } from "@/components/home/WhatWeDo";
+import { PillarDetail } from "@/components/platform/PillarDetail";
+import { PlatformPositioning } from "@/components/platform/PlatformPositioning";
 import { WhyPeopleFabrix } from "@/components/home/WhyPeopleFabrix";
 import { TrustSection } from "@/components/home/TrustSection";
 import { HowItWorks } from "@/components/home/HowItWorks";
@@ -12,8 +12,8 @@ export default function Home() {
     <main className="flex-1">
       <Hero />
       <DemoVideo />
-      <ValueProp />
-      <WhatWeDo />
+      <PillarDetail />
+      <PlatformPositioning />
       <WhyPeopleFabrix />
       <TrustSection />
       <HowItWorks />

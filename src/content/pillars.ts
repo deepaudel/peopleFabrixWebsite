@@ -14,7 +14,7 @@ export const pillars = [
   {
     title: "Update HR Records — With a Human Always in the Loop",
     summary:
-      "Employees and managers can check PTO balances and employment details directly, scoped to what they're allowed to see. Any change — like a PTO adjustment — is staged first and only applied after the person explicitly confirms it.",
+      "Employees and managers can check PTO balances and employment details directly, scoped to what they're allowed to see. Any change — like a request to update PTO — is staged first and only applied after the person explicitly confirms it.",
     detail:
       "This isn't a prompt asking the AI to be careful — it's an actual gate in the software. The assistant physically cannot apply a change without a separate, explicit confirmation step.",
     bullets: [] as string[],

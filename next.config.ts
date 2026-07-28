@@ -1,7 +1,17 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  async redirects() {
+    return [
+      // Platform's content was merged into the homepage - keep old links/
+      // bookmarks working with a permanent redirect instead of a 404.
+      {
+        source: "/platform",
+        destination: "/",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

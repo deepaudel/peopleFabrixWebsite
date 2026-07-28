@@ -19,7 +19,7 @@ const defaultTitle = "People Fabrix — People Data. Connected. Intelligent.";
 const defaultDescription =
   "People Fabrix brings your workforce data together and puts AI to work across employee support, HR operations, and people decisions.";
 const defaultOgImage = {
-  url: "/screenshots/policy-qa.png",
+  url: "/screenshots/og-image.png",
   width: 1280,
   height: 720,
   alt: "People Fabrix answering an HR policy question with a citation to the company handbook",
