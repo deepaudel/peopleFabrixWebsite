@@ -28,9 +28,23 @@ export const pillars = [
     },
   },
   {
+    title: "Generate HR Documents on Request",
+    summary:
+      "Employees can request common HR documents — like an employment verification letter — and get a ready-to-use, company-branded PDF right in the conversation, generated from their own record.",
+    detail:
+      "No ticket, no waiting on HR to manually pull and format a letter — the same request that used to take a form and a turnaround time now takes one sentence.",
+    bullets: [] as string[],
+    image: {
+      src: "/screenshots/Letter.png",
+      alt: "People Fabrix generating an employment verification letter and providing a PDF download link",
+      width: 658,
+      height: 1315,
+    },
+  },
+  {
     title: "Ask Workforce Questions in Plain English",
     summary:
-      "Managers and HR leaders can ask about headcount, tenure, or PTO trends in plain language instead of writing a query or waiting on a report.",
+      "Managers and HR leaders can ask about headcount, tenure, turnover, time to hire, or PTO trends in plain language instead of writing a query or waiting on a report.",
     detail:
       "Access is scoped by role — a manager sees their own department, HR leadership can see across the organization.",
     bullets: [] as string[],
