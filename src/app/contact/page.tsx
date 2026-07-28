@@ -1,12 +1,12 @@
-import type { Metadata } from "next";
 import { ContactHero } from "@/components/contact/ContactHero";
 import { ContactForm } from "@/components/contact/ContactForm";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Contact — People Fabrix",
   description:
     "Talk to People Fabrix about your AI employee assistant, HR service delivery, or workforce data strategy.",
-};
+});
 
 export default function Contact() {
   return (

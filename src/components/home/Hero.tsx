@@ -7,12 +7,13 @@ export function Hero() {
         People Data. Connected. Intelligent.
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
-        People Fabrix brings your workforce data together and puts AI to work
-        across employee support, HR operations, and people decisions.
+        A conversational assistant that answers HR policy questions from your
+        real handbook, updates HR records with a human always confirming the
+        change, and answers workforce questions in plain English.
       </p>
       <p className="mx-auto mt-4 max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
-        Create better employee experiences, automate repetitive HR processes,
-        and turn fragmented people data into meaningful action.
+        Less time searching for answers and building reports — more time on
+        the work that actually needs a person.
       </p>
       <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
         <Link

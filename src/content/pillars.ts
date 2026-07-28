@@ -1,49 +1,47 @@
 export const pillars = [
   {
-    title: "Unified People Data",
+    title: "Ask Any HR Policy Question",
     summary:
-      "Connect workforce information from HR systems, recruiting platforms, learning systems, employee surveys, policies, and other people-data sources.",
+      "Employees get a conversational answer to policy, benefits, time-off, and payroll questions — grounded in your actual company handbook, with a citation back to the source policy.",
     detail:
-      "Create a more consistent and connected view of your workforce.",
+      "No more digging through a PDF or guessing whether a Slack answer is still accurate. Every response is checked against real, current company documentation.",
     bullets: [] as string[],
+    image: {
+      src: "/screenshots/policy-qa.png",
+      alt: "People Fabrix answering a public holiday policy question with a citation link to the source policy",
+    },
   },
   {
-    title: "AI Employee Assistant",
+    title: "Update HR Records — With a Human Always in the Loop",
     summary:
-      "Give employees a simple, conversational way to find answers about HR policies, benefits, time off, payroll, and more.",
+      "Employees and managers can check PTO balances and employment details directly, scoped to what they're allowed to see. Any change — like a PTO adjustment — is staged first and only applied after the person explicitly confirms it.",
     detail:
-      "The assistant uses approved company information to provide relevant, easy-to-understand responses.",
-    bullets: [
-      "HR policies",
-      "Benefits",
-      "Time off",
-      "Payroll",
-      "Workplace programs",
-      "Learning and development",
-      "Internal HR services",
-    ],
-  },
-  {
-    title: "AI-First HR Processes",
-    summary:
-      "Transform manual HR activities into intelligent, guided experiences.",
-    detail: "Use AI to support:",
-    bullets: [
-      "Employee onboarding",
-      "HR case intake and routing",
-      "Manager requests",
-      "Policy guidance",
-      "Employee document discovery",
-      "Talent processes",
-      "Workforce planning",
-      "HR service delivery",
-    ],
-  },
-  {
-    title: "People Insights",
-    summary: "Turn workforce information into clear, actionable insights.",
-    detail:
-      "Help HR and business leaders better understand workforce trends, employee needs, organizational risks, and opportunities.",
+      "This isn't a prompt asking the AI to be careful — it's an actual gate in the software. The assistant physically cannot apply a change without a separate, explicit confirmation step.",
     bullets: [] as string[],
+    image: {
+      src: "/screenshots/hris-confirm.png",
+      alt: "People Fabrix staging a PTO balance change and waiting for the employee to confirm or cancel it",
+    },
+  },
+  {
+    title: "Ask Workforce Questions in Plain English",
+    summary:
+      "Managers and HR leaders can ask about headcount, tenure, or PTO trends in plain language instead of writing a query or waiting on a report.",
+    detail:
+      "Access is scoped by role — a manager sees their own department, HR leadership can see across the organization.",
+    bullets: [] as string[],
+    image: {
+      src: "/screenshots/analytics.png",
+      alt: "People Fabrix answering a workforce analytics question about average department tenure",
+    },
+  },
+  {
+    title: "Grounded in Your Own Company Information",
+    summary:
+      "Answers are drawn from your actual policies and HR records, not generic AI knowledge — so guidance reflects how your organization really works, not a generic best practice.",
+    detail:
+      "Every company's data and access are kept separate, so information from one organization is never visible to another.",
+    bullets: [] as string[],
+    image: null,
   },
 ];

@@ -1,14 +1,14 @@
-import type { Metadata } from "next";
 import { PlatformHero } from "@/components/platform/PlatformHero";
 import { PillarDetail } from "@/components/platform/PillarDetail";
 import { PlatformPositioning } from "@/components/platform/PlatformPositioning";
 import { ClosingCTA } from "@/components/shared/ClosingCTA";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Platform — People Fabrix",
   description:
-    "Unified people data, an AI employee assistant, AI-first HR processes, and people insights — one platform for AI-powered HR.",
-};
+    "Cited policy answers from your real handbook, HR record changes confirmed by a human before anything is written, and workforce questions answered in plain English.",
+});
 
 export default function Platform() {
   return (

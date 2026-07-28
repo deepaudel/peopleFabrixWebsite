@@ -14,16 +14,41 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl = "https://peoplefabrix.com";
+const defaultTitle = "People Fabrix — People Data. Connected. Intelligent.";
+const defaultDescription =
+  "People Fabrix brings your workforce data together and puts AI to work across employee support, HR operations, and people decisions.";
+const defaultOgImage = {
+  url: "/screenshots/policy-qa.png",
+  width: 1280,
+  height: 720,
+  alt: "People Fabrix answering an HR policy question with a citation to the company handbook",
+};
+
 export const metadata: Metadata = {
-  title: "People Fabrix — People Data. Connected. Intelligent.",
-  description:
-    "People Fabrix brings your workforce data together and puts AI to work across employee support, HR operations, and people decisions.",
+  metadataBase: new URL(siteUrl),
+  title: defaultTitle,
+  description: defaultDescription,
   icons: {
     icon: [
       { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
       { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
     ],
     apple: "/apple-touch-icon.png",
+  },
+  openGraph: {
+    type: "website",
+    url: siteUrl,
+    siteName: "People Fabrix",
+    title: defaultTitle,
+    description: defaultDescription,
+    images: [defaultOgImage],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: defaultTitle,
+    description: defaultDescription,
+    images: [defaultOgImage.url],
   },
 };
 
