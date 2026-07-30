@@ -9,8 +9,8 @@ export const pillars = [
     image: {
       src: "/screenshots/policy-qa.png",
       alt: "People Fabrix answering a public holiday policy question with a citation link to the source policy",
-      width: 456,
-      height: 924,
+      width: 442,
+      height: 913,
     },
   },
   {
@@ -23,8 +23,8 @@ export const pillars = [
     image: {
       src: "/screenshots/hris-confirm.png",
       alt: "People Fabrix staging a PTO balance change and waiting for the employee to confirm or cancel it",
-      width: 545,
-      height: 1105,
+      width: 532,
+      height: 1097,
     },
   },
   {
@@ -37,8 +37,8 @@ export const pillars = [
     image: {
       src: "/screenshots/Letter.png",
       alt: "People Fabrix generating an employment verification letter and providing a PDF download link",
-      width: 625,
-      height: 1282,
+      width: 605,
+      height: 1270,
     },
   },
   {
@@ -51,8 +51,8 @@ export const pillars = [
     image: {
       src: "/screenshots/analytics.png",
       alt: "People Fabrix answering a workforce analytics question about average department tenure",
-      width: 620,
-      height: 1237,
+      width: 595,
+      height: 1213,
     },
   },
   {

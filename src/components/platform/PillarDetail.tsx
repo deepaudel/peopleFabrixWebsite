@@ -11,8 +11,14 @@ export function PillarDetail() {
         <div key={pillar.title}>
           <div className="h-3 bg-white" />
           <section className={`py-20 ${SLIDE_BACKGROUND}`}>
-            <div className="mx-auto grid max-w-5xl items-center gap-10 px-6 md:grid-cols-2">
-              <div className={i % 2 === 1 ? "md:order-2" : undefined}>
+            <div
+              className={
+                pillar.image
+                  ? "mx-auto grid max-w-5xl items-center gap-10 px-6 md:grid-cols-2"
+                  : "mx-auto max-w-2xl px-6 text-center"
+              }
+            >
+              <div className={pillar.image && i % 2 === 1 ? "md:order-2" : undefined}>
                 <h2
                   className="text-2xl font-bold tracking-tight sm:text-3xl"
                   style={{ color: ACCENT }}
