@@ -3,6 +3,7 @@ import { PageHeader } from "@/components/shared/PageHeader";
 
 export const metadata: Metadata = {
   title: "Privacy Policy — People Fabrix",
+  alternates: { canonical: "/privacy" },
 };
 
 export default function Privacy() {

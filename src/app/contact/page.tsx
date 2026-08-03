@@ -6,6 +6,7 @@ export const metadata = pageMetadata({
   title: "Contact — People Fabrix",
   description:
     "Talk to People Fabrix about your AI employee assistant, HR service delivery, or workforce data strategy.",
+  path: "/contact",
 });
 
 export default function Contact() {
