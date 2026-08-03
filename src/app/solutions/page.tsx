@@ -7,6 +7,7 @@ export const metadata = pageMetadata({
   title: "Solutions — People Fabrix",
   description:
     "Solutions for employees, managers, HR teams, people leaders, and HR technology teams.",
+  path: "/solutions",
 });
 
 export default function Solutions() {

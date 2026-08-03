@@ -6,6 +6,7 @@ export const metadata = pageMetadata({
   title: "About Us — People Fabrix",
   description:
     "People Fabrix brings together people data, HR expertise, and AI to create more connected employee experiences and more intelligent people processes.",
+  path: "/about",
 });
 
 export default function About() {

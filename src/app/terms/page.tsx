@@ -3,6 +3,7 @@ import { PageHeader } from "@/components/shared/PageHeader";
 
 export const metadata: Metadata = {
   title: "Terms of Use — People Fabrix",
+  alternates: { canonical: "/terms" },
 };
 
 export default function Terms() {

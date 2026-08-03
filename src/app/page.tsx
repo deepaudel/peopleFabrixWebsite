@@ -6,6 +6,9 @@ import { WhyPeopleFabrix } from "@/components/home/WhyPeopleFabrix";
 import { TrustSection } from "@/components/home/TrustSection";
 import { HowItWorks } from "@/components/home/HowItWorks";
 import { ClosingCTA } from "@/components/shared/ClosingCTA";
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata = pageMetadata({ path: "/" });
 
 export default function Home() {
   return (
