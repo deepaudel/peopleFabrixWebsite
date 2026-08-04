@@ -15,11 +15,11 @@ export function Hero() {
         />
       </div>
       <div className="mx-auto max-w-6xl px-6 pt-10 text-center">
-        <p className="mx-auto max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
-          A conversational assistant that answers HR policy questions from
-          your real handbook, updates HR records with a human always
-          confirming the change, and answers workforce questions in plain
-          English.
+        <h1 className="mx-auto max-w-3xl text-3xl font-bold tracking-tight sm:text-4xl">
+          Agentic AI for HR
+        </h1>
+        <p className="mx-auto mt-4 max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
+          People Fabrix is an agentic AI platform for HR that gives employees, managers, and HR teams a conversational assistant to answer policy questions from your organization's handbook, update HR records with human confirmation, and analyze workforce data using plain English.
         </p>
         <p className="mx-auto mt-4 max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
           Less time searching for answers and building reports — more time on

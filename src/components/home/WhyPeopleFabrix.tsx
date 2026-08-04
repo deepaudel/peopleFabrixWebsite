@@ -31,7 +31,7 @@ export function WhyPeopleFabrix() {
           <p className="mt-4 text-lg text-zinc-600 dark:text-zinc-400">
             AI should make work easier for employees and HR teams—not add
             more complexity. People Fabrix combines people data, HR
-            expertise, and AI to create solutions that are:
+            expertise, and agentic AI to create HR AI agents that are:
           </p>
         </div>
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
