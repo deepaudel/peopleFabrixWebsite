@@ -22,8 +22,8 @@ export function Footer() {
             className="h-7 w-auto"
           />
           <p className="mt-3 max-w-sm text-sm text-slate-400">
-            People data and AI working together to create better employee
-            experiences and smarter HR processes.
+            Agentic AI for HR — people data and AI working together to
+            create better employee experiences and smarter HR processes.
           </p>
         </div>
         <div className="flex flex-col gap-2 text-sm text-slate-400 sm:items-end">

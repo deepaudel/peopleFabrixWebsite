@@ -22,7 +22,7 @@ export function PlatformPositioning() {
         </p>
         <p className="mt-4 text-lg text-zinc-600 dark:text-zinc-400">
           Rather than creating another disconnected destination, we help
-          organizations connect information and create a simpler, AI-powered
+          organizations move toward agentic HR — a simpler, AI-powered
           experience across their people ecosystem.
         </p>
         <p className="mt-8 text-sm font-medium">Potential integrations may include:</p>

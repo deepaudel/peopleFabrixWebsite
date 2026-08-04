@@ -18,9 +18,9 @@ const inter = Inter({
   weight: ["400", "500", "600"],
 });
 
-const defaultTitle = "People Fabrix — People Data. Connected. Intelligent.";
+const defaultTitle = "People Fabrix — Agentic AI for HR";
 const defaultDescription =
-  "People Fabrix brings your workforce data together and puts AI to work across employee support, HR operations, and people decisions.";
+  "People Fabrix is agentic AI for HR — AI HR agents that answer policy questions, update records with human confirmation, and turn data into instant answers.";
 const defaultOgImage = {
   url: "/screenshots/og-image.png",
   width: 1280,
@@ -35,6 +35,8 @@ const jsonLd = [
     name: "People Fabrix",
     url: siteUrl,
     logo: `${siteUrl}/icon-512.png`,
+    description:
+      "Agentic AI for HR — AI HR agents that answer policy questions, update records with human confirmation, and turn workforce data into instant answers.",
   },
   {
     "@context": "https://schema.org",
